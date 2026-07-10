@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.kata.FizzBuzzTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s -- in com.kata.FizzBuzzTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s -- in com.kata.FizzBuzzTest
