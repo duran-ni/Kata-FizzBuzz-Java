@@ -1,3 +1,5 @@
+package com.kata;
+
 public class FizzBuzz {
 
     public String evaluate(int number) {
