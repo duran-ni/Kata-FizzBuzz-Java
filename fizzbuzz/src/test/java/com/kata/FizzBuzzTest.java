@@ -31,4 +31,21 @@ class FizzBuzzTest {
         assertThat(fizzBuzz.evaluate(1), is("1"));
         assertThat(fizzBuzz.evaluate(7), is("7"));
     }
+
+    @Test
+    void returns_fizz_when_number_contains_3() {
+        assertThat(fizzBuzz.evaluate(13), is("Fizz")); // contiene 3
+        assertThat(fizzBuzz.evaluate(31), is("Fizz")); // contiene 3
+    }
+
+    @Test
+    void returns_buzz_when_number_contains_5() {
+        assertThat(fizzBuzz.evaluate(25), is("Buzz")); // contiene 5
+        assertThat(fizzBuzz.evaluate(52), is("Buzz")); // contiene 5
+    }
+
+    @Test
+    void returns_fizzbuzz_when_contains_both_3_and_5() {
+        assertThat(fizzBuzz.evaluate(35), is("FizzBuzz")); // contiene 3 y 5
+    }
 }
