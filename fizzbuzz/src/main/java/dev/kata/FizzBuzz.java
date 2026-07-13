@@ -1,4 +1,4 @@
-package com.kata;
+package dev.kata;
 
 public class FizzBuzz {
 
